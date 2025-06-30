@@ -1,0 +1,65 @@
+/* General reset and body styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 40px;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header styling */
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #0d0d0d;
+}
+
+/* Profile picture */
+img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 3px solid #2c3e50;
+    margin-bottom: 20px;
+}
+
+/* Section titles */
+h2 {
+    color: #0f0f0f;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+    margin-top: 40px;
+}
+
+/* Subheadings and dates */
+h3 {
+    color: #2c3e50;
+    font-size: 1.1em;
+    margin: 0;
+}
+
+/* Lists styling */
+ul, ol {
+    padding-left: 20px;
+}
+
+ul li, ol li {
+    margin-bottom: 10px;
+}
+
+/* Paragraphs in lists */
+ul p {
+    margin: 5px 0 15px 0;
+}
+
+/* Skills badges (optional style) */
+ul:last-of-type li {
+    display: inline-block;
+    background: #ecf0f1;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+}
