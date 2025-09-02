@@ -3,10 +3,18 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 40px;
-    background-color: #f4f4f4;
+    background-color: #ffffff;
     color: #333;
     line-height: 1.6;
 }
+.container {
+    background-color: #7099eb;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
 
 /* Header styling */
 h1 {
@@ -14,13 +22,14 @@ h1 {
     font-size: 2.5em;
     margin-bottom: 10px;
     color: #0d0d0d;
+    font-family:cursive
 }
 
 /* Profile picture */
 img {
     display: block;
     margin: 0 auto;
-    border-radius: 10px;
+    border-radius: 50%;
     border: 3px solid #2c3e50;
     margin-bottom: 20px;
 }
@@ -57,9 +66,16 @@ ul p {
 /* Skills badges (optional style) */
 ul:last-of-type li {
     display: inline-block;
-    background: #ecf0f1;
+    background: #d2d2d5;
     padding: 5px 10px;
     margin: 5px;
     border-radius: 5px;
     font-weight: bold;
+}
+#skills ul li {
+    background: #2505f0;
+    color: white;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 5px;
 }
